@@ -1,0 +1,9 @@
+{
+	"name": "ReportsUsers",
+	"slug": "reports_users",
+	"namespace": "ReportsUsers",
+	"version": "1.0",
+	"author": "Sebastien Routier",
+	"license": "GPL-3.0",
+	"description": "Provides some reports on users and their permissions for admin purpose."
+}
