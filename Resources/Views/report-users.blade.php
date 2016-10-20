@@ -42,8 +42,9 @@
                       ->setNavigatorOptions('navigator', array('viewtext'=>'view'))
                       ->setNavigatorOptions('view',array('closeOnEscape'=>false))
                       ->setFilterToolbarOptions(array('autosearch'=>true))
-                      ->setNavigatorEvent('view', 'beforeShowForm', 'function(){alert("Before show form");}')
-                      ->setFilterToolbarEvent('beforeSearch', 'function(){alert("Before search event");}')
+                      // Example event hook-up.
+                      //->setNavigatorEvent('view', 'beforeShowForm', 'function(){alert("Before show form");}')
+                      //->setFilterToolbarEvent('beforeSearch', 'function(){alert("Before search event");}')
                       ->addColumn(array('label'=>'ID','name'=>'id', 'index'=>'id', 'width'=>55))
                       ->addColumn(array('label'=>'Last name','index'=>'last_name','width'=>100))
                       ->addColumn(array('label'=>'First name','index'=>'first_name','width'=>100))
