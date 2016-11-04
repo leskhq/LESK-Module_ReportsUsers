@@ -59,7 +59,8 @@ class ReportsUsersMaintenance implements ModuleMaintenanceInterface
             $routeReportUserData = self::createRoute( 'reports.users-data',
                 'reports/users-data',
                 'App\Modules\ReportsUsers\Http\Controllers\ReportsUsersController@report_users_data',
-                $permReportUser );
+                $permReportUser,
+                'POST' );
             // ----- Create routes for permissions and roles report page and data loader.
             $routeReportPermRole = self::createRoute( 'reports.perms-and-roles-by-users',
                 'reports/perms-and-roles-by-users',
@@ -68,7 +69,8 @@ class ReportsUsersMaintenance implements ModuleMaintenanceInterface
             $routeReportUserData = self::createRoute( 'reports.perms-and-roles-by-users-data',
                 'reports/perms-and-roles-by-users-data',
                 'App\Modules\ReportsUsers\Http\Controllers\ReportsUsersController@report_perms_and_roles_by_users_data',
-                $permReportPermRole );
+                $permReportPermRole,
+                'POST' );
 
             ///////////
             // Menus //
