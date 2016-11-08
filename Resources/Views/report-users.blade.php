@@ -3,10 +3,10 @@
 
 <!-- Optional bottom section for modals etc... -->
 @section('head_extra')
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset("/jquery-ui/trontastic/jquery-ui.min.css") }}" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset("/jquery-ui/base/jquery-ui.min.css") }}" />
     <link rel="stylesheet" type="text/css" media="screen" href="{{ asset("/jqgrid/css/ui.jqgrid.css") }}"/>
 
-    <script type="text/javascript" src="{{ asset ("/jquery-ui/trontastic/jquery-ui.min.js") }}"></script>
+    <script type="text/javascript" src="{{ asset ("/jquery-ui/base/jquery-ui.min.js") }}"></script>
 
     <script type="text/javascript" src="{{ asset ("/jqgrid/js/i18n/grid.locale-en.js") }}"></script>
     <script type="text/javascript" src="{{ asset ("/jqgrid/js/jquery.jqGrid.min.js") }}"></script>
