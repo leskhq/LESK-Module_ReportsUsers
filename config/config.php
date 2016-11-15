@@ -10,7 +10,7 @@ return [
     |
     */
     // TODO: RPT theme
-    'config_setting' => env('MODULES.REPORTS_USERS.CONFIG_SETTING', 'default_value'),
+    'config_setting' => env('reports_users.config_setting', 'default_value'),
 
 ];
 
