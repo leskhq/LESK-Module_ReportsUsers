@@ -20,6 +20,7 @@ class ReportsUsersController extends Controller
         $page_description = "Showing a sample report with the users.";
         $page_message = "";
 
+        session(['crumbtrail.leaf' => 'reports.users']);
         return view('reports_users::report-users', compact('page_title', 'page_description', 'page_message'));
     }
 
@@ -34,6 +35,7 @@ class ReportsUsersController extends Controller
         $page_description = "Showing a sample report of the permissions and roles grouped by users.";
         $page_message = "";
 
+        session(['crumbtrail.leaf' => 'reports.perms-and-roles']);
         return view('reports_users::report-perms-and-roles-by-users', compact('page_title', 'page_description', 'page_message'));
     }
 
